@@ -1,0 +1,96 @@
+:root {
+    --pcolor: #0c0e10;
+}
+
+body{
+    background-color: var(--pcolor);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#body{
+    margin: 3% 3%;
+    border-radius: 20px;
+    background-color: rgba(52, 69, 81, 0.4);
+    height: max-content
+}
+
+.intro{
+    font-weight: 100;
+    color: white;
+    padding: 2% 2% 0 3%;
+    letter-spacing: 0.1rem;
+}
+
+.intro-box{
+    display: flex;
+    flex-direction: row;
+    column-gap: 30px;
+    margin: 0 2% 0 3%;
+}
+
+.display-img{
+    height: 400px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.4);
+    filter: saturate(150%);
+}
+
+p{
+    color: white;
+    font-size: 1rem;
+    text-align: justify;
+    letter-spacing: 0.2rem;
+    line-height: 1.5rem;
+}
+
+.quote{
+    text-align: left;
+    font-weight: 600;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+.second{
+    margin-top: 3%;
+}
+
+.bold{
+    font-weight: 700;
+    font-size: 1.2rem;
+}
+
+.img2{
+    height: 550px;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+}
+
+.end{
+    text-align: center;
+}
+
+.vertical{
+    color: white;
+    transform-origin: right ;
+    letter-spacing: 2rem;
+    line-height: 7rem;
+    font-size: 5rem;
+    margin: -1% 0 0 4% ;
+    padding: 0;
+    text-transform: uppercase;
+    text-decoration: 3px underline ;
+}
+
+.third{
+    column-gap: 0;
+    margin-top: 5%;
+}
+
+.fourth{
+    display: grid;
+    text-align: center;
+    padding: 5% 0 3% 0;
+}
